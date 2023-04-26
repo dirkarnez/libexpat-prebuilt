@@ -12,7 +12,7 @@ jobs:
     env:
       libraryName: libexpat
       cmakeInstallationPath: libexpat-installation
-      tagName: R_2_4_9
+      tagName: R_2_5_0
       mingwTargetZip: libexpat-${{ github.ref_name }}-mingw64-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - name: check mingw version
